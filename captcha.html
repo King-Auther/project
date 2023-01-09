@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<link rel="stylesheet" href="captcha.css">
+	<link rel="stylesheet" href=
+"https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+		integrity=
+"sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk"
+		crossorigin="anonymous">
+	<script src="index.js"></script>
+</head>
+
+<body onload="generate()">
+	
+	<div class="centre">
+	<div id="captchaBackground">
+		<div id="image" class="inline" selectable="False" style="font-size: 20px; color: aliceblue;">
+		</div>
+		<input id="value" type="text" name="text" placeholder="Captcha code" >
+		<div id="buttons">
+			<input id="submitButton" type="submit" onclick="printmsg()">
+			<button id="refreshButton" type="submit" onclick="generate()">Refresh</button>
+			</div>
+			</div>
+		</div>
+
+</body>
+
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <link rel="stylesheet" href="style.css">
+  <script src="index.js"> </script>
+</head>
+    
+    <body>
+      <form id="nameform">
+<div  id="div" class="main">
+  <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="fname" placeholder="First Name" class="label"><br> <br>
+  <label for="lname">Last name:</label><br>
+  <input  type="text" id="lname" name="lname" placeholder="Last Name" class="label">
+
+  <br><br>
+  <label class="age" for="age"> Age:</label><br>
+  <input  type="number" id="age" name="age" class="label"><br>
+
+  <label for="gender">Gender:</label><br>
+  <input type="radio" id="gender" name="Gender">
+  <label for="Male">Male</label><br>
+  <input type="radio" id="Female" name="Gender" >
+  <label for="Female">Female</label><br>
+  <input type="radio" id="Others" name="Gender" >
+  <label for="Others">Others</label><br>
+
+  <label for="Social Media">Social Media</label><br>
+  <select class="label"  name="Social Media" id="Media">
+    <option value="Choose">Choose your Social Media</option>
+    <option value="Instagram">Instagram</option>
+    <option value="Tinder">Tinder</option>
+    <option value="Twitter">Twitter</option>
+    <option value="Discord">Discord</option>
+  </select>
+  <br>
+  <br>
+  <input type="checkbox" id="TOS" name="tos" value="TOS">
+  <label for="TOS">I have read the terms of condition and service for this website</label><br>
+</form>
+
+<br>
+
+<button class="button"  type="button" value="Submit" onclick="myfunction()">Submit</button>
+</div>
+<script src="index.js"> </script>
+</body>
+</html>
